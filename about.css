@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 1020px;
+    font-family: 'poppins',sans-serif;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(image/image\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    position: absolute;
+    text-align: center;
+    width: 75%;
+    left: 12%;
+    top: -0rem;
+    backdrop-filter: blur(5px);
+}
+h1{
+    color: #ff7200;
+}
+.content a{
+    width: 180px;
+    height: 32px;
+    background: #ff7200;
+    border: none;
+    margin-top: 35px;
+    font-size: 13px;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000;
+    transition: 0.4s ease;
+}
+.content p{
+    margin-bottom: 29px;
+}
+.content h3{
+    color: #000000;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a:hover{
+    color: rgb(241, 241, 241);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+    padding-top: 90px;
+}
+.container p{
+    color: #fff;
+}
+.container .box{
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    background:transparent;
+    backdrop-filter: blur(20px);
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    border-radius: 6px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+.container .box .icon{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    color: #fff;
+    background: #ff7200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 1s;
+
+}
+.icon img{
+    width: 50px;
+}
+.container .box:nth-child(1) .icon{
+    box-shadow: 0 0 0 0 #e91e63;
+    background: #e91e63;
+}
+.container .box:nth-child(1):hover .icon{
+    box-shadow: #ff7200;
+}
