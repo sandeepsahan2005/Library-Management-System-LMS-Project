@@ -7,7 +7,7 @@
     <title>Library Management System</title>
 </head>
 <body>
-    <!-- main section  -->
+    <!-- main header section  -->
     <div class="main">
         <div class="navbar">
             <div class="icon">
@@ -16,14 +16,14 @@
 
             <div class="menu">
                 <ul>
-                    <li><a href="Home.html">Home</a></li>
-                    <li><a href="Book Inventory.html">Book Inventory</a></li>
-                    <li><a href="AboutUs.html">About Us</a></li>
-                    <li><a href="contactUs.html">Contact Us</a></li>
+                    <li><a href="Home.php">Home</a></li>
+                    <li><a href="Book Inventory.php">Book Inventory</a></li>
+                    <li><a href="AboutUs.php">About Us</a></li>
+                    <li><a href="contactUs.php">Contact Us</a></li>
                 </ul>
             </div>
             <div class="login">
-                <a href="login.html" class="login">Login</a>
+                <a href="login.php" class="login">Login</a>
             </div>
         </div> 
         <!-- content section  -->

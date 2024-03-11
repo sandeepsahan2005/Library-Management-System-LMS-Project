@@ -10,7 +10,6 @@
     background-size: cover;
     height: 100vh;
 }
-
 .navbar{
     width: 1354px;
     height: 75px;
@@ -75,6 +74,7 @@ ul li a:hover{
     border: none;
     margin-top: 30px;
     font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     padding-top: 4px;
     text-decoration: none;

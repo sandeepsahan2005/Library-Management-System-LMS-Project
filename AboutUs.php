@@ -7,6 +7,24 @@
     <link rel="stylesheet" href="about.css">
 </head>
 <body>
+    <!-- main header section  -->
+        <div class="navbar">
+            <div class="iconn">
+                <h2 class="logo">Library</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="Home.php">Home</a></li>
+                    <li><a href="Book Inventory.php">Book Inventory</a></li>
+                    <li><a href="AboutUs.php">About Us</a></li>
+                    <li><a href="contactUs.php">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="login">
+                <a href="login.php" class="login">Login</a>
+            </div>
+        </div> 
     <!-- main section --> 
     <div class="container">
      <header>
@@ -34,7 +52,7 @@
            <div class="content">
                <h3>Objectives</h3>
                <p>Welcome to [Your Library's Name], where reading and learning come to life! Since [Year of Establishment], we have </p>
-               <a href="#">Read More</a>
+               <a href="">Read More</a>
            </div>
        </div>
        <div class="box">

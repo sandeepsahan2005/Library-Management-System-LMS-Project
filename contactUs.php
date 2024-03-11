@@ -10,6 +10,24 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
+    <!-- main header section  -->
+    <div class="navbar">
+            <div class="iconn">
+                <h2 class="logo">Library</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="Home.php">Home</a></li>
+                    <li><a href="Book Inventory.php">Book Inventory</a></li>
+                    <li><a href="AboutUs.php">About Us</a></li>
+                    <li><a href="contactUs.php">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="login">
+                <a href="login.php" class="login">Login</a>
+            </div>
+        </div> 
     <div class="container">
         <header>
             <h1>Contact Us</h1>
@@ -19,7 +37,7 @@
             <div class="content-form">
                 <section class="box">
                     <ion-icon class="img" name="location-outline"></ion-icon>
-                    <h2>address</h2>
+                    <h2>Address</h2>
                     <p>
                         dp it campus . <br>
                         hatagala. <br>
@@ -27,13 +45,13 @@
                     </p>
                 </section>
 
-                <section>
+                <section class="box">
                     <ion-icon class="img" name="call-outline"></ion-icon>
                     <h2>Phone</h2>
                     <p>+94 76 289 7418</p>
                 </section>
 
-                <section>
+                <section class="box">
                     <ion-icon class="img" name="mail-outline"></ion-icon>
                     <h2>E-mail</h2>
                     <p>sahansandeep37@gmail.com</p>
@@ -45,6 +63,7 @@
         <div class="form">
             <div class="right">
               <div class="contact-form">
+                  
                   <textarea name="text">
                     
                   </textarea>
@@ -58,12 +77,12 @@
             </div>
           </div>
     </form>
-        <!-- <div class="media">
-            <li><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></li>
-            <li><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li>
-            <li><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></li>
-            <li><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></li>
-        </div> -->
+        <div class="media">
+            <li class="fb"><ion-icon name="logo-facebook"></ion-icon></li>
+            <li><ion-icon name="logo-whatsapp"></ion-icon></li>
+            <li><ion-icon name="logo-instagram"></ion-icon></li>
+            <li><ion-icon name="logo-twitter"></ion-icon></li>
+        </div>
     </div>    
 </body>
 </html>
